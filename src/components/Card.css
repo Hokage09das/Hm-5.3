@@ -1,0 +1,32 @@
+.wrapper {
+  width: 250px;
+  height: 400px;
+  border: 1px solid coral;
+  border-radius: 15px;
+  margin-top: 40px;
+  box-shadow: 2px 1px 5px black;
+}
+.section_one {
+  height: 30%;
+  border-radius: 15px 15px 0 0;
+  box-sizing: border-box;
+}
+.section_one > img {
+  margin-top: 70px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.section_one img,
+p {
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+.section_two {
+  height: 70%;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+.text {
+  padding: 120px 5px 0px;
+}
